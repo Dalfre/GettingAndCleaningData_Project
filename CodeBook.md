@@ -7,6 +7,7 @@ Index:
 
 
 # The Data
+
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
 wearing a smartphone (Samsung Galaxy S II) on the waist.
@@ -28,8 +29,8 @@ therefore a filter with 0.3 Hz cutoff frequency was used.
 From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
 See 'features_info.txt' for more details. 
 
+
 ## For each record it is provided:
-======================================
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
@@ -37,8 +38,8 @@ See 'features_info.txt' for more details.
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
+
 ## The dataset includes the following files:
-=========================================
 
 - 'README.txt'
 - 'features_info.txt': 	Shows information about the variables used on the feature vector.
@@ -57,12 +58,12 @@ The following files are available for the train and test data. Their description
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. 
 
 ## Notes on the Dataset: 
-=====================
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 - 'train/Inertial Signals/total_acc_x_train.txt' is not used in the course assignment
 - 'train/Inertial Signals/body_acc_x_train.txt' is not used in the course assignment
 - 'train/Inertial Signals/body_gyro_x_train.txt' is not used in the course assignment
+
 
 # The Variables
 
@@ -81,7 +82,7 @@ the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing 
 fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. 
 
-These signals were used to estimate variables of the feature vector for each pattern:
+## These signals were used to estimate variables of the feature vector for each pattern:
 
 tBodyAcc-XYZ
 tGravityAcc-XYZ
@@ -133,11 +134,11 @@ tBodyGyroJerkMean
 The complete list of variables of each feature vector is available in 'features.txt'
 
 ## Notes on the variables:
-=====================
 - Only variables with mean() and std() measurements are used in this assignment.
 - The 'f' prefix to indicate frequency domain signals. 
 - The 't' prefix to denote time.  
 - That '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
 
 # Course Assignment Details
  
@@ -147,24 +148,23 @@ work with, and clean a data set. The goal is to prepare tidy data that can be us
 In this assignment I create a R script called run_analysis.R that does the following (with fun examples):
 
 1. Collect and read the data sets. 
-	-> [download.file and read.csv]
+	[download.file and read.csv]
 2. Merges the training and the test sets to create one data set. 
-	-> [bind_cols() and bind_rows()]
+	[bind_cols() and bind_rows()]
 3. Extracts only the measurements on the mean and standard deviation for each measurement. 
-	-> [grep()]
+	[grep()]
 4. Uses descriptive activity names to name the activities in the data set. 
-	-> [left_join()]
+	[left_join()]
 5. Appropriately labels the data set with descriptive variable names. 
-	-> [gsub()]
+	[gsub()]
 6. Create a second, tidy data set with the average of each variable for each activity and each subject. 
-	-> [group_by() and summerise_all()]
+	[group_by() and summerise_all()]
 
 
-License:
-========
-Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
+# License:
+Use of this dataset in publications must be acknowledged by referencing the following publication
 
-[1] Davide Anguita, 
+Davide Anguita, 
 Alessandro Ghio, 
 Luca Oneto, 
 Xavier Parra and Jorge L. Reyes-Ortiz. 
