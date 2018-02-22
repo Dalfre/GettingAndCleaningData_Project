@@ -5,7 +5,8 @@ Index:
 2. The Variables and Measurements
 3. Course Assignment Details
 
-The Data
+
+# The Data
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
 wearing a smartphone (Samsung Galaxy S II) on the waist.
@@ -36,7 +37,7 @@ See 'features_info.txt' for more details.
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-The dataset includes the following files:
+## The dataset includes the following files:
 =========================================
 
 - 'README.txt'
@@ -55,7 +56,7 @@ The following files are available for the train and test data. Their description
 - 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. 
 
-Notes on the Dataset: 
+## Notes on the Dataset: 
 =====================
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
@@ -71,7 +72,6 @@ Then they were filtered using a median filter and a 3rd order low pass Butterwor
 Similarly, the acceleration signal was then separated into body and 
 gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) 
 using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
-) 
 
 Subsequently, the body linear acceleration and 
 angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). 
@@ -132,7 +132,7 @@ tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
 
-Notes on the variables:
+## Notes on the variables:
 =====================
 - Only variables with mean() and std() measurements are used in this assignment.
 - The 'f' prefix to indicate frequency domain signals. 
