@@ -1,9 +1,9 @@
-##Human Activity Recognition Using Smartphones Dataset
+# Human Activity Recognition Using Smartphones Dataset
 
 Index:
 1. The Data
 2. The Variables and Measurements
-3. 
+3. Course Assignment Details
 
 The Data
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
@@ -27,7 +27,7 @@ therefore a filter with 0.3 Hz cutoff frequency was used.
 From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
 See 'features_info.txt' for more details. 
 
-##For each record it is provided:
+## For each record it is provided:
 ======================================
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
@@ -63,7 +63,7 @@ Notes on the Dataset:
 - 'train/Inertial Signals/body_acc_x_train.txt' is not used in the course assignment
 - 'train/Inertial Signals/body_gyro_x_train.txt' is not used in the course assignment
 
-#The Variables
+# The Variables
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
 These time domain signals were captured at a constant rate of 50 Hz. 
@@ -101,7 +101,7 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-##The set of measurements that were estimated from these signals are: 
+## The set of measurements that were estimated from these signals are: 
 
 mean(): Mean value
 std(): Standard deviation
@@ -122,7 +122,7 @@ bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of e
 angle(): Angle between to vectors.
 
 
-##Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+## Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
 gravityMean
 tBodyAccMean
@@ -139,7 +139,7 @@ Notes on the variables:
 - The 't' prefix to denote time.  
 - That '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-#Course Assignment Details
+# Course Assignment Details
  
 The purpose of the Getting and Cleaning Data assignment is to demonstrate our ability to collect,
 work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
