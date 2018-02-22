@@ -1,11 +1,11 @@
-#Human Activity Recognition Using Smartphones Dataset
+##Human Activity Recognition Using Smartphones Dataset
 
 Index:
 1. The Data
 2. The Variables and Measurements
 3. 
 
-##The Data
+The Data
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
 wearing a smartphone (Samsung Galaxy S II) on the waist.
