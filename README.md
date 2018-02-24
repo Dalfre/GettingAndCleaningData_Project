@@ -1,7 +1,7 @@
 # GettingAndCleaningData_Project
 Getting and Cleaning Data Course Project
 
-## The course project is the final assignment of the third course, "Getting and Cleaning Data", in the "Data science specialisazion". 
+### The course project is the final assignment of the third course, "Getting and Cleaning Data", in the "Data science specialisazion". 
 
 The purpose of this project is to demonstrate our ability to collect, work with, and clean a data set.
 We are working on a dataset that represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
