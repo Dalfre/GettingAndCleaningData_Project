@@ -1,7 +1,6 @@
 ######################################################
 #                 Run_Data.R script                  #
 ######################################################
-#C:/Users/Fredrik/Documents/DataScientist/R_Scripts/ProgAssignment4-data
 
 ###Setting working directory 
 Path <- "#your working_directory_here"
